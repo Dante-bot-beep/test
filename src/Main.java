@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);
@@ -5,7 +6,7 @@ public class Main {
         int number = scanner1.nextInt();
         System.out.println("-----------------g");
         System.out.println(number + " to jest liczba odczytana z klawiatury");
-        System.out.printf("%d to jest liczba odczytana z klawaitury\n", number);
+        System.out.printf("To jest liczba odczytana z klawiatury\n", number);
 
 
     }
